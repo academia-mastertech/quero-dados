@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_BR" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quero Dados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Quero Dados</h1>
+    <form class="" action="index.html" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" placeholder="Digite seu nome" required="">
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="email@querodados.io" required="">
+
+		<label for="telefone">Telefone:</label>
+		<input type="tel" name="telefone" placeholder="11 98765 4321">
+
+		<label for="estado">Estado:</label>
+		<select name="estado" required="">
+				<option disabled>Selecione</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espírito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+		</select>
+
+		<label for="cep">CEP:</label>
+		<input type="text" name="cep" placeholder="01412100">
+
+		<label for="logradouro">Logradouro:</label>
+		<input type="text" name="logradouro" placeholder="Avenida Paulista" required="">
+
+		<label for="bairro">Bairro:</label>
+		<input type="text" name="bairro" placeholder="Jardins Paulista" required="">
+
+		<label for="cidade">Cidade:</label>
+		<input type="text" name="cidade" placeholder="São Paulo" required="">
+
+		<label for="numero">Numero:</label>
+		<input type="text" name="numero" placeholder="1819" required="">
+
+		<label for="complemento">Complemento:</label>
+		<input type="text" name="complemento" placeholder="Conjunto 8">
+
+		<label for="genero">Genero:</label>
+		<input type="radio" name="genero" value="feminino"> Feminino
+		<input type="radio" name="genero" value="masculino"> Masculino
+		<input type="radio" name="genero" value="nao-binario"> Não Binario
+
+		<label for="gostos">Selecione os itens que você mais gosta:</label>
+		<input type="checkbox" name="cinema" value="cinema"> Cinema
+		<input type="checkbox" name="teatro" value="teatro"> Teatro
+		<input type="checkbox" name="musica" value="musica"> Musica
+
+		<label for="comentario">Comente o que você achou disso tudo.</label>
+		<textarea name="comentario" rows="8" cols="80"></textarea>
+		<input type="submit" name="enviar" value="enviar">
+    </form>
+</body>
+</html>
